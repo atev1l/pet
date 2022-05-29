@@ -4,6 +4,10 @@ import utilStyles from '../styles/utils.module.css';
 import { getSortedPostsData } from '../lib/posts';
 
 export default function Home({ allPostsData }) {
+    const ar = fetch('E:/code/pet/nextjs-blog/public/ex.json')
+
+        console.log('suka', ar)
+
     return (
         <Layout home>
             <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
