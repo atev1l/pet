@@ -1,3 +1,24 @@
+.fraq{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner_block{
+    background: #f3a200;
+    width: 100%;
+    height: 1080px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cat_model{
+   width: 200px;
+}
+
+.df{
+    display: flex;
+}
+
 .heading2Xl {
     font-size: 2.5rem;
     line-height: 1.2;
